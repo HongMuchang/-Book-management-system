@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.none {
+  display: none;
+  /* ボックスごと非表示 */
+}
+.hidden {
+  text-indent: 100%;
+  white-space: nowrap; /* 改行せずに表示 */
+  overflow: hidden;
+  /* ボックスの中身が不可視 */
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.fontsize {
+  font-size: 25px;
+}
+.container {
+  padding-top: 20vh;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.content-right {
+  padding-top: 30px;
+}
+
+.update-btn a {
+  color: white;
+}
+.img {
+  max-width: 300px;
+}
+.imges {
+  max-width: 50px;
+}
+
+.bettween {
+  text-align: center;
+}
+.error {
+  color: red;
+}
+.green {
+  color: rgb(41, 209, 41);
+}
+.green:hover {
+  color: orange;
+}
+.red {
+  color: red;
+}
+.red:hover {
+  color: orange;
+}
